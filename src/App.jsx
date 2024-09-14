@@ -10,7 +10,7 @@ const dispatch = useDispatch()
 
   return (
     <>
-    <h2>My-Countr: {count}</h2>
+    <h2>My-Counter: {count}</h2>
     <div>
       <button aria-label="Increment value" onClick={()=>{dispatch(increment())}}>Increment</button>
         {count}
